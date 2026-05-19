@@ -41,9 +41,9 @@
     entries.forEach(e => {
       if (e.isIntersecting) {
         const n = document.querySelectorAll('.stat-number');
-        animateCount(n[0], 0, '+');
-        animateCount(n[1], 0, '');
-        animateCount(n[2], 0, '%');
+        animateCount(n[0], 30, '+');
+        animateCount(n[1], 30, '%');
+        animateCount(n[2], 70, '%');
         animateCount(n[3], 0, 'M');
         statsObs.unobserve(e.target);
       }
