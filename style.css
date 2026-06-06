@@ -109,7 +109,7 @@
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(150deg, rgba(23, 29, 21, 0.693) 0%, rgba(23, 29, 21, 0.693) 55%, rgba(23, 29, 21, 0.693) 100%),
+      linear-gradient(150deg, rgba(23, 29, 21, 0.252) 0%, rgba(23, 29, 21, 0.252) 55%, rgba(23, 29, 21, 0.693) 100%),
       url('IAfondo.png') center/cover no-repeat;
   }
   .hero-content {
@@ -145,7 +145,7 @@
     opacity: 0.6; 
   }
   .hero-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: clamp(35px, 10vw, 96px);
     font-weight: 900;
     line-height: 0.95;
@@ -157,8 +157,8 @@
     background-clip: text;
   }
   .hero-name2 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(35px, 10vw, 96px); 
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: clamp(35px, 10vw, 96px);
     font-weight: 900;
     line-height: 0.95;
     letter-spacing: -2px;
@@ -167,6 +167,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
   .hero-title {
     font-family: 'Barlow Condensed', sans-serif;
